@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+*.log
+
+# Production
+build/
+dist/
+out/
+
+# Environment variables
+.env
+.env*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Next.js
+.next/
+frontend/.next/
+frontend/out/
+
+# Hardhat
+backend/fhevmTemp/
+backend/typechain-types/
+
+# Misc
+*.mp4
+*.pem
+*.tsbuildinfo
+
