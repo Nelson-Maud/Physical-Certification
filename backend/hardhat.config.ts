@@ -13,6 +13,7 @@ import "solidity-coverage";
 
 // Support environment variables for MNEMONIC and SEPOLIA_RPC_URL
 // Priority: environment variable > hardhat vars > default value
+// Configuration supports multiple networks: hardhat, anvil, and sepolia
 const MNEMONIC: string = process.env.MNEMONIC || vars.get("MNEMONIC", "test test test test test test test test test test test junk");
 const INFURA_API_KEY: string = vars.get("INFURA_API_KEY", "zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz");
 const SEPOLIA_RPC_URL: string = process.env.SEPOLIA_RPC_URL || `https://sepolia.infura.io/v3/${INFURA_API_KEY}`;
