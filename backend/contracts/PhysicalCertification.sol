@@ -7,6 +7,7 @@ import {ZamaEthereumConfig} from "@fhevm/solidity/config/ZamaConfig.sol";
 /// @title Physical Certification Contract
 /// @notice A contract for storing encrypted health metrics and evaluating eligibility
 /// @dev All health metrics are stored and processed in encrypted form using FHEVM
+/// @dev This contract uses FHEVM to ensure privacy-preserving health evaluations
 contract PhysicalCertification is ZamaEthereumConfig {
     // Structure to store encrypted health metrics for each user
     struct EncryptedMetrics {
