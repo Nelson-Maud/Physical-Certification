@@ -6,6 +6,7 @@ import { useInMemoryStorage } from "../hooks/useInMemoryStorage";
 import { useMetaMaskEthersSigner } from "../hooks/metamask/useMetaMaskEthersSigner";
 import { usePhysicalCertification } from "../hooks/usePhysicalCertification";
 
+// Main demo component for physical certification interface
 export const PhysicalCertificationDemo = () => {
   const { storage: fhevmDecryptionSignatureStorage } = useInMemoryStorage();
   const {
