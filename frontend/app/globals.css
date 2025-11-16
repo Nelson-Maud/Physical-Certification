@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Global CSS variables for consistent theming */
 @layer base {
   :root {
     --primary-blue: #2563eb;
